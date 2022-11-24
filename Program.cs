@@ -47,33 +47,33 @@
                 {
                     if (input == 'R' && T.Get(0) == T.Get(-1))
                    { 
-                        Console.WriteLine("Invalid pattern.");
+                        Console.WriteLine("Invalid pattern");
                    }
                     else if (T.Get(-1) == 'R' && input == T.Get(-2))
                    {
-                        Console.WriteLine("Invalid pattern.");
+                        Console.WriteLine("Invalid pattern");
                    }
                     else if(input == 'G')
                    { 
 
                      if(input == T.Get(-1) && input == T.Get(-2)&& input == T.Get(-3))
                    {
-                        Console.WriteLine("Invalid pattern.");
+                        Console.WriteLine("Invalid pattern");
                    }
 
                      else if(T.Get(0) == 'G' && T.Get(1) == 'G' && T.Get(2) == 'G')
                    { 
-                        Console.WriteLine("Invalid pattern.");
+                        Console.WriteLine("Invalid pattern");
                    }
 
                      else if (T.Get(0) == 'G' && T.Get(-1) == 'G' && T.Get(-2) == 'G' )
                    { 
-                        Console.WriteLine("Invalid pattern.");
+                        Console.WriteLine("Invalid pattern");
                    }
 
                      else if(T.Get(0) == 'G' && T.Get(1) == 'G' && T.Get(-1) == 'G')
                    {
-                        Console.WriteLine("Invalid pattern.");
+                        Console.WriteLine("Invalid pattern");
                    }
                 
                      else
